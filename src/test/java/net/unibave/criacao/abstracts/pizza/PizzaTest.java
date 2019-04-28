@@ -1,6 +1,5 @@
 package net.unibave.criacao.abstracts.pizza;
 
-import java.util.Collection;
 import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
