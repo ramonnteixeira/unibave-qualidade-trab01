@@ -1,11 +1,11 @@
 package net.unibave.criacao.abstracts.builder;
 
-public class Cliente {
+public class Diretor {
 
 
 	private String nome, endereco, telefone, email;
 
-	public Cliente(Builder builder) {
+	public Diretor(Builder builder) {
 		nome = builder.nome;
 		endereco = builder.endereco;
 		telefone = builder.telefone;
@@ -39,8 +39,8 @@ public class Cliente {
 			return this;
 		}
 		
-		public Cliente build() {
-			return new Cliente(this);
+		public Diretor build() {
+			return new Diretor(this);
 		}
 	}
 	
